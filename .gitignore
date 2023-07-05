@@ -1,0 +1,25 @@
+# Ignore specific files
+filename.txt
+kpi_missing_20230602.R
+ct_so_003_2_prepare_network_data.R
+draft-styles.Rmd
+draft.R
+draft_20220608.R                    
+draft_20230531.R
+drafts   
+
+# Ignore files with a certain extension
+*.csv
+*.xlsx
+*.RData
+*.docx
+*.tif
+*.ai
+*.eps
+*.png
+
+# Ignore all files in a specific folder and its subfolders
+"Additional R files"/**
+"Contact_Tracing_SO.Rproj"/**
+output/**
+old_code/**
