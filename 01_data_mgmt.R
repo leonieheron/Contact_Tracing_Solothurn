@@ -5,11 +5,11 @@
 #' ---
 #' 
 #' ## Function loading of cleaned variables
-# check initialize file - are all packages installed? (open R/comix_000_initialize.R)
+# check initialize file - are all packages installed? (open comix_000_initialize.R)
 path_name <- rstudioapi::getSourceEditorContext()$path
 path_name <- gsub("01_data_mgmt.R","",path_name)
 setwd(path_name)
-source(paste0(path_name,"R/ct_so_000_initialise.R"))
+source(paste0(path_name,"ct_so_000_initialise.R"))
 
 ## Load data
 #load and clean raw index case data:
